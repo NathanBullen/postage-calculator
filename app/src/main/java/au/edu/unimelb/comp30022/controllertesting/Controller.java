@@ -57,7 +57,7 @@ public class Controller {
             return;
         }
 
-        if (!this.postcodeValidator.isValid(this.sourcePostCodeField.getText())) {
+        if (!this.postcodeValidator.isValid(this.destinationPostCodeField.getText())) {
             new Alert("Destination post code isn't valid.").show();
             return;
         }
